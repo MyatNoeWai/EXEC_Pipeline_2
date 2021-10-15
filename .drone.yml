@@ -5,3 +5,9 @@ platform:
   os: linux
   arch: amd64
  
+steps:
+- name: greeting
+  commands:
+  - echo hello world
+
+...
